@@ -17,4 +17,5 @@ jobs:
         export_default_credentials: true
     - name: Create Cloud Storage Bucket
       run: |
-        gsutil mb -l us-central1 gs://my-bucket-name
+        gsutil mb -l us-central1 gs://githubactionwithgcp
+
